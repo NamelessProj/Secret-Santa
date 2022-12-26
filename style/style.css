@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url("../img/BG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
+#cont{
+    width: 95%;
+    height: 95%;
+    margin-inline: auto;
+    margin-top: 2.5%;
+    border-radius: 5px;
+    backdrop-filter: blur(2px);
+}
+#contReste{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(236, 130, 135, 0.7), rgba(236, 130, 135, 0.7), rgba(227, 91, 98, 1));
+    border-radius: 0 0 5px 5px;
+    padding-bottom: 15px;
+}
+
+#titre{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+    background: linear-gradient(to top, rgba(227, 91, 98, 1), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)), url("../img/Y.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infos{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#participants{
+    height: 100%;
+    width: 90%;
+    margin-inline: auto;
+}
+#cont_partici{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.participant{
+    display: flex;
+    gap: 5px;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.delete_parti a{
+    color: rgba(255, 242, 242, 0.6);
+    cursor: pointer;
+    transition: .2s ease;
+}
+.delete_parti a:hover{
+    color: rgb(235, 144, 4);
+    transition: .2s ease;
+}
+#add_partici{
+    margin-top: 15px;
+    display: flex;
+    gap: 5px;
+    border: solid 2px rgba(255, 242, 242, 0.6);
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+#add_partici:hover{
+    border: solid 2px rgb(235, 144, 4);
+    transition: .2s ease-in-out;
+}
+
+#add_partici:hover{
+    color: rgb(255, 191, 95);
+    background-color: rgba(0, 0, 0, 0.356);
+    transition: .2s ease-in-out;
+}
+
+#btnGenerer{
+    cursor: pointer;
+    width: fit-content;
+    margin-inline: auto;
+    border: solid 2px rgba(255, 242, 242, 0.6);
+    border-radius: 5px;
+    padding: 5px;
+    transition: .2s ease-in-out;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#btnGenerer:hover{
+    border: solid 2px rgb(235, 144, 4);
+    color: rgb(255, 191, 95);
+    background-color: rgba(0, 0, 0, 0.356);
+    transition: .2s ease-in-out;
+}
+
+
+#resultat{
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card{
+    border-radius: 5px;
+    border: solid 2px rgba(255, 242, 242, 0.6);
+    padding: 15px;
+    width: fit-content;
+    height: auto;
+    aspect-ratio: 1 / 1;
+}
+.up, .to, .down{
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word;
+    word-break: keep-all;
+    white-space: break-spaces;
+}
+.card span{
+    color: rgb(235, 144, 4);
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.file{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.file a svg{
+    color: rgb(235, 144, 4);
+    transition: .2s ease-in-out;
+}
+.file a:hover svg{
+    color: rgb(255, 242, 242);
+    transition: .2s ease-in-out;
+}
