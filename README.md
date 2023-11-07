@@ -12,6 +12,6 @@ When you got everything done, you can click on the button "Generated" or "Géné
 
 ## And if I want to remember the list
 ### First option
-You can write it down, but I don't like that and neither you.
+You can write it down, but I don't like that and neither do you.
 ### Second option (BEST)
 You can download the text file where everything is written at the end of the list. 
